@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: app
+   namespace: default
+spec:
+  containers:
+    -name: app
+     image: nginx
+
+
+
+
+
+       #  sonrada dokerdə qurduğun bir juberı deploye elə
